@@ -1,0 +1,55 @@
+{include file="common/banner"}
+
+
+<div class="container">
+    <div class="container_title">
+        <span>在线留言</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>M</span>
+            <div>
+                <span>在线留言</span>
+                <p>essage</p>
+            </div>
+        </div>
+        <ul>
+            <li class="focus"><a href="">在线留言</a></li>
+        </ul>
+    </div>
+
+
+    <div class="detail">
+        <div class="news_content">
+
+           <div class="message_describe">
+               尊敬的用户，如果还有什么疑问可以给我们在线留言，我们会尽快给您回复，如果您想了解更详细的信息欢迎自接联系我们，江西省君鑫贵金属科技材料有限公司竭诚欢迎您的光临。
+           </div>
+            <form action="{:url('page/message/save')}" method="post">
+                {:token()}
+                <li>
+                    <span>您的姓名:</span><input type="text" name="name">
+                </li>
+
+                <li>
+                    <span>您的电话:</span><input type="text" name="phone">
+                </li>
+                <li>
+                    <span>您的邮箱:</span><input type="text" name="email">
+                </li>
+                <li>
+                    <span>备注说明：</span>
+                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                </li>
+
+                <input type="submit" value="我要留言">
+            </form>
+        </div>
+    </div>
+
+
+</div>

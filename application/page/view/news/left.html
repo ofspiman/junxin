@@ -1,0 +1,12 @@
+<ul>
+
+    {volist name="news" id="item"}
+        <li {if $item.id==$cid} class="focus" {/if}>
+            <a href="{:url('page/news/index',
+                        ['cid'=>$item.id])}">
+                {$item.name}
+            </a>
+        </li>
+    {/volist}
+
+</ul>

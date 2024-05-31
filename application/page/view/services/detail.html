@@ -1,0 +1,52 @@
+{include file="common/banner"}
+
+<div class="container">
+    <div class="container_title">
+        <span>贵金属服务</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>S</span>
+            <div>
+                <span>贵金属服务</span>
+                <p>ervices</p>
+            </div>
+        </div>
+        {include file="services/left"}
+    </div>
+
+
+    <div class="detail">
+        <div class="news_detail">
+            <h4>{$ones.title}</h4>
+
+            <div  class="refer">
+                <span>发布时间：{:date('Y-m-d',$ones.createtime)}</span>
+                <span>来源：{$ones.tags}</span>
+            </div>
+
+            <p>
+                {$ones.content}
+            </p>
+        </div>
+
+
+        <div class="upPage">上一篇:<a  {if $upPage.title } href="{:url('services/detail',['id'=>$upPage.id])}" {else }
+                                       href="javascript:;"
+                                       {/if}>
+            {$upPage.title?$upPage.title:'没有了？'}</a></div>
+        <div class="nextPage">下一篇:<a  {if $nextPage.title }
+                                         href="{:url('services/detail',['id'=>$nextPage.id])}"
+                                         {else } href="javascript:;"
+                                         {/if}>
+            {$nextPage.title?$nextPage.title:'没有了？'}
+            </a></div>
+
+    </div>
+
+
+</div>

@@ -1,0 +1,43 @@
+{include file="common/banner"}
+
+<div class="container">
+    <div class="container_title">
+        <span>贵金属服务</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>S</span>
+            <div>
+                <span>贵金属服务</span>
+                <p>ervices</p>
+            </div>
+        </div>
+        {include file="services/left"}
+    </div>
+
+
+    <div class="detail">
+        <div class="news_content">
+
+            {volist name="data" id="item"}
+                <li>
+                    <a href="{:url('services/detail',['id'=>$item.id])}">
+                        {$item.title} </a>
+                    <span>{:date('Y-m-d',$item.createtime)}</span>
+                </li>
+            {/volist}
+        </div>
+
+
+        <div class="pageSize">
+           {$data}
+        </div>
+
+    </div>
+
+
+</div>

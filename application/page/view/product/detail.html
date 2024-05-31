@@ -1,0 +1,33 @@
+
+{include file="common/banner"}
+
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>P</span>
+            <div>
+                <span>产品展示</span>
+                <p>roduct</p>
+            </div>
+        </div>
+        {include file="product/left" }
+
+    </div>
+
+    <div  class="detail">
+         <div class="detail_title">{$ones.title}</div>
+         <span>发布时间：{:date('Y-m-d',$ones.createtime)} &nbsp;&nbsp;&nbsp;来源：{$ones.tags}</span>
+
+        <div class="detail_content">
+            <img src="{$ones.image}">
+        </div>
+
+        <div class="upPage">上一篇:<a  {if $upPage.title } href="{:url('product/detail',['id'=>$upPage.id])}" {else } href="javascript:;" {/if}>{$upPage.title?$upPage.title:'没有了？'}</a></div>
+        <div class="nextPage">下一篇:<a  {if $nextPage.title }  href="{:url('product/detail',['id'=>$nextPage.id])}"  {else } href="javascript:;" {/if}>{$nextPage.title?$nextPage.title:'没有了？'}</a></div>
+
+    </div>
+
+
+</div>

@@ -1,0 +1,11 @@
+<ul>
+
+    {volist name="acate" id="item"}
+
+
+    <li {if $item.id==$id} class="focus" {/if}>
+        <a href="{:url('page/aboutus/index',['id'=>$item.id])}">{$item.title}</a>
+    </li>
+
+    {/volist}
+</ul>

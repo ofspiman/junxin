@@ -1,0 +1,67 @@
+    <div class="mapper">
+            <a  href="/" class="main_content_left"  >
+                <img src="/assets/img/images/jx_logo.png">
+            </a>
+            <div class="main_content_right">
+                <img src="/assets/img/images/phone.png">
+                <div class="phon_logo_text">
+                    <span>全国免费服务热线</span>
+                    <div>13968560738</div>
+                </div>
+            </div>
+    </div>
+     <nav>
+        <div class="main_nav">
+            <ul class="main_nav_ul">
+                 <li><a href="{:url('page/index/index')}" >网站首页</a></li>
+
+                 <li><a href="{:url('page/aboutus/index')}" >关于君鑫</a>
+
+                     <ul class="list">
+                         {volist name="acate" id="item"}
+                             <li>
+                                 <a href="{:url('page/aboutus/index',['id'=>$item.id])}" >
+                                 {$item.title}
+                                </a>
+                             </li>
+                         {/volist}
+                     </ul>
+
+                 </li>
+
+                 <li><a href="{:url('page/product/index')}" >产品展示</a></li>
+                 <li>
+                     <a href="{:url('page/news/index')}" >
+                     新闻资讯
+                    </a>
+
+                     <ul class="list">
+                         {volist name="news" id="item"}
+                         <li>
+                             <a href="{:url('page/news/index',['cid'=>$item.id])}" >
+                                 {$item.name}
+                             </a>
+                         </li>
+                         {/volist}
+                     </ul>
+
+                 </li>
+                 <li><a href="{:url('page/services/index')}" >贵金属服务</a></li>
+                 <li><a href="{:url('page/purchase/index')}" >废材采购</a></li>
+                 <li><a href="{:url('page/knolodeg/index')}" >贵金属知识</a></li>
+                 <li><a href="{:url('page/message/index')}" >在线留言</a></li>
+                 <li><a href="{:url('page/contact/index')}" >联系我们</a></li>
+            </ul>
+        </div>
+     </nav>
+
+
+
+
+
+
+
+
+
+
+

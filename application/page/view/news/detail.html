@@ -1,0 +1,43 @@
+
+{include file="common/banner"}
+
+<div class="container">
+    <div class="container_title">
+        <span>贵金属服务</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>N</span>
+            <div>
+                <span>新闻资讯</span>
+                <p>ews</p>
+            </div>
+        </div>
+        {include file="news/left" }
+    </div>
+
+
+    <div class="detail">
+        <div class="news_detail">
+            <h4>{$detail.title}</h4>
+
+            <div  class="refer">
+                <span>发布时间：{:date('Y-m-d',$detail.createtime)}</span>
+                <span>来源：{$detail.description}</span>
+            </div>
+
+            <p>
+                {$detail.content}
+            </p>
+        </div>
+        <div class="upPage">上一篇:<a  {if $upPage.title } href="{:url('news/detail',['id'=>$upPage.id])}" {else } href="javascript:;" {/if}>{$upPage.title?$upPage.title:'没有了？'}</a></div>
+        <div class="nextPage">下一篇:<a  {if $nextPage.title }  href="{:url('news/detail',['id'=>$nextPage.id])}"  {else } href="javascript:;" {/if}>{$nextPage.title?$nextPage.title:'没有了？'}</a></div>
+
+    </div>
+
+
+</div>

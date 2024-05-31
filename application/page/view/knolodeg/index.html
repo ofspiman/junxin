@@ -1,0 +1,40 @@
+{include file="common/banner"}
+
+<div class="container">
+    <div class="container_title">
+        <span>贵金属知识</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>K</span>
+            <div>
+                <span>贵金属知识</span>
+                <p>nowledge</p>
+            </div>
+        </div>
+        <ul>
+            <li class="focus"><a href="">贵金属知识</a></li>
+        </ul>
+    </div>
+
+
+    <div class="detail">
+        <div class="news_content">
+            {volist name="data" id="item"}
+
+            <li>
+                <a href="{:url('knolodeg/detail',['id'=>$item.id])}">
+                    {$item.title}
+                </a>
+                <span>{$item.time_text}</span>
+            </li>
+            {/volist}
+        </div>
+    </div>
+    
+</div>
+

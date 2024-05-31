@@ -1,0 +1,6 @@
+<ul>
+
+    <li {if $product.id==$id} class="focus" {/if}>
+        <a href="{:url('page/product/index',['id'=>$product.id])}">{$product.name}</a>
+    </li>
+</ul>

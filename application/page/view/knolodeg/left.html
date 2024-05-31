@@ -1,0 +1,13 @@
+<ul>
+
+    <li {if $knolodeg.id==$id}
+        class="focus"
+        {/if}>
+    <a href="{:url('page/knolodeg/index',
+        ['id'=>$knolodeg.id])}">
+        {$knolodeg.name}
+    </a>
+
+    </li>
+
+</ul>

@@ -1,0 +1,49 @@
+
+{include file="common/banner"}
+
+
+<div class="container">
+    <div class="container_title">
+        <span>产品展示</span>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="sidebar">
+        <div class="sidebar_title">
+            <span>P</span>
+            <div>
+                <span>产品展示</span>
+                <p>roduct</p>
+            </div>
+        </div>
+    {include file="product/left" }
+
+
+    </div>
+
+    <div class="detail">
+
+        <ul>
+
+
+             {volist name="data" id="item"}
+
+                <li>
+                    <a href="{:url('product/detail',['id'=>$item.id])}">
+                        <img src="{$item.image}">
+                        <p> {$item.title}</p>
+                    </a>
+                </li>
+             {/volist}
+        </ul>
+
+        <div class="pageSize">
+            {$data}
+        </div>
+
+    </div>
+
+</div>
+

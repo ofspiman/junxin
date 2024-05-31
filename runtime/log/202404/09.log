@@ -1,0 +1,1336 @@
+---------------------------------------------------------------
+[ 2024-04-09T17:41:40+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/
+[运行时间：0.340342s] [吞吐率：2.94req/s] [内存消耗：3,835.80kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000158s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009379s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002415s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005772s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Index->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\index\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'pdata',
+  10 => 'newslist',
+  11 => 'aboutus',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:40+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/favicon.ico
+[运行时间：0.036075s] [吞吐率：27.72req/s] [内存消耗：1,941.22kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002477s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000685s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000039s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:42+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus.html
+[运行时间：0.054066s] [吞吐率：18.50req/s] [内存消耗：3,604.25kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002541s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002059s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000075s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000940s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:45+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product.html
+[运行时间：0.070416s] [吞吐率：14.20req/s] [内存消耗：3,787.05kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002097s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000567s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000915s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:45+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/news.html
+[运行时间：0.056881s] [吞吐率：17.58req/s] [内存消耗：3,777.08kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001970s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000574s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'news',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/news_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001225s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\News->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\News.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\news\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:46+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/services.html
+[运行时间：0.080413s] [吞吐率：12.44req/s] [内存消耗：3,776.09kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001940s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000539s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'services',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/news.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/services_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000936s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Services->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Services.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\services\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:48+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/purchase.html
+[运行时间：0.068038s] [吞吐率：14.70req/s] [内存消耗：3,601.34kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001862s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000533s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'purchase',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/services.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/purchase_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002838s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Purchase->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Purchase.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\purchase\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:50+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/knolodeg.html
+[运行时间：0.090505s] [吞吐率：11.05req/s] [内存消耗：3,993.31kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004486s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000560s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'knolodeg',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/purchase.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/knolodeg_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000901s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Knolodeg->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Knolodeg.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\knolodeg\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:51+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/message.html
+[运行时间：0.070734s] [吞吐率：14.14req/s] [内存消耗：3,606.11kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001879s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000529s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'message',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/knolodeg.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/message_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000919s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Message->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Message.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\message\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:52+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/contact.html
+[运行时间：0.075160s] [吞吐率：13.30req/s] [内存消耗：3,606.02kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001857s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000750s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000154s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'contact',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'SECKEY_ABVK=6+Dk/5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMde/q33K8XjBQkYSHfXMLBcdiRCjqyMty+2PfFWN74pkiw%3D%3D; BMAP_SECKEY=6-Dk_5HQGBUOWWsaI83DAFfeJH43fS6bLfr8eAmPMdfAnm_LKRcLsMk5YG-yui4vG44PA4Gds8EscVmufv5duqrfzY4BVU1MyvPCFsrCroznP9QaqNpJtY8KP_-U3mGpLIfMByqZBVskC9cDx97uzkm6kqvF23p048yK1DMxl17Z19Oi25_djPhgpL_TGAgcx5Oqw4xxb1YVTwCU8O12WQ; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/message.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/contact_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001666s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Contact->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Contact.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\contact\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:41:59+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/
+[运行时间：0.062043s] [吞吐率：16.12req/s] [内存消耗：3,836.59kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004469s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002099s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/contact.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000939s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Index->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\index\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'pdata',
+  10 => 'newslist',
+  11 => 'aboutus',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:01+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus.html
+[运行时间：0.077927s] [吞吐率：12.83req/s] [内存消耗：3,604.06kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002386s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000676s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001179s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:03+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus/2.html
+[运行时间：0.051281s] [吞吐率：19.50req/s] [内存消耗：3,603.61kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001841s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000521s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus/2_html' => '',
+  'id' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001032s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:04+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus/3.html
+[运行时间：0.065605s] [吞吐率：15.24req/s] [内存消耗：3,603.59kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000015s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001899s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000535s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus/3_html' => '',
+  'id' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000892s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:06+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus/2.html
+[运行时间：0.062637s] [吞吐率：15.96req/s] [内存消耗：3,603.80kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001948s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000595s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus/3.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus/2_html' => '',
+  'id' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000935s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:08+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product.html
+[运行时间：0.054410s] [吞吐率：18.38req/s] [内存消耗：3,786.86kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001917s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000534s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus/2.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000908s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:10+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product/18.html
+[运行时间：0.071162s] [吞吐率：14.05req/s] [内存消耗：3,787.47kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002067s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000616s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product/18_html' => '',
+  'id' => '18',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000923s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:12+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product/18.html?page=2
+[运行时间：0.059318s] [吞吐率：16.86req/s] [内存消耗：3,783.51kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002429s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000886s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product/18.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product/18_html' => '',
+  'page' => '2',
+  'id' => '18',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001592s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:14+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product/18.html?page=1
+[运行时间：0.053441s] [吞吐率：18.71req/s] [内存消耗：3,787.75kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004071s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001670s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product/18.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product/18_html' => '',
+  'page' => '1',
+  'id' => '18',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000932s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:16+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product/18.html?page=2
+[运行时间：0.054453s] [吞吐率：18.36req/s] [内存消耗：3,783.51kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001912s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000530s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product/18.html?page=1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product/18_html' => '',
+  'page' => '2',
+  'id' => '18',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001177s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:19+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/news.html
+[运行时间：0.074181s] [吞吐率：13.48req/s] [内存消耗：3,776.94kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000014s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002041s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000591s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'news',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product/18.html?page=2',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/news_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000938s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\News->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\News.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\news\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:22+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/page/news/detail/id/1.html
+[运行时间：0.060751s] [吞吐率：16.46req/s] [内存消耗：3,996.59kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001997s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000526s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'news',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/news.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/page/news/detail/id/1_html' => '',
+  'id' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000887s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\News->detail[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\News.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\news\detail.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'upPage',
+  10 => 'nextPage',
+  11 => 'detail',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:23+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product.html
+[运行时间：0.069759s] [吞吐率：14.34req/s] [内存消耗：3,786.91kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000012s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001843s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000508s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/page/news/detail/id/1.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002389s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:27+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/services.html
+[运行时间：0.074800s] [吞吐率：13.37req/s] [内存消耗：3,775.91kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001989s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000747s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000056s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'services',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/services_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002423s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Services->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Services.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\services\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:42:28+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/purchase.html
+[运行时间：0.076584s] [吞吐率：13.06req/s] [内存消耗：3,601.16kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001952s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000721s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000118s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'purchase',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/services.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/purchase_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000962s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Purchase->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Purchase.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\purchase\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:43:40+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/
+[运行时间：0.076559s] [吞吐率：13.06req/s] [内存消耗：3,836.59kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001924s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000536s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/purchase.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001063s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Index->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\index\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'pdata',
+  10 => 'newslist',
+  11 => 'aboutus',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-04-09T17:43:50+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/
+[运行时间：0.086798s] [吞吐率：11.52req/s] [内存消耗：3,836.79kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000016s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003063s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000911s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=t8bkrh71kta2bukrqvp1mo5t4k; thinkphp_show_page_trace=0|0; SECKEY_ABVK=I9lKwIWe8WVzsJ6SohGSYHJBa8VGdHofFHAcn7qShJ8%3D; BMAP_SECKEY=LMyHCrRW8XbreQqXCc4ksvUxKrEsmfNUedojBDK8_s64re9Ixo-bcNuePcwkzLgoj8T7bz2UAVydcQUPU21wqjKmBF4K_m7um4PFVs47gml1rWCPzkWcaSzHs2zLJsQPHEX0HpitDHV4pLVJzumt_6oLRJVTUh1Tka3yi6D8KKLz1AobV1KpPcjrGe0JPgvt',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/purchase.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002926s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Index->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\index\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'pdata',
+  10 => 'newslist',
+  11 => 'aboutus',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

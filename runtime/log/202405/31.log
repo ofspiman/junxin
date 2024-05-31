@@ -1,0 +1,231 @@
+---------------------------------------------------------------
+[ 2024-05-31T13:13:15+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/
+[运行时间：0.286315s] [吞吐率：3.49req/s] [内存消耗：3,833.48kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000143s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011859s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002191s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003539s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Index->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\index\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+  9 => 'pdata',
+  10 => 'newslist',
+  11 => 'aboutus',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-05-31T13:13:15+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/favicon.ico
+[运行时间：0.032253s] [吞吐率：31.00req/s] [内存消耗：1,939.44kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002780s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000641s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=q6ht79q7esib0f58fj542rbp83; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/favicon_ico' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-05-31T13:13:17+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/aboutus.html
+[运行时间：0.083919s] [吞吐率：11.92req/s] [内存消耗：3,602.09kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001880s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000676s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'aboutus',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=q6ht79q7esib0f58fj542rbp83; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/aboutus_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000921s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Aboutus->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Aboutus.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\aboutus\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-05-31T13:13:18+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/product.html
+[运行时间：0.077374s] [吞吐率：12.92req/s] [内存消耗：3,785.02kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000013s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001820s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000521s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'product',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=q6ht79q7esib0f58fj542rbp83; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/aboutus.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/product_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003220s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Product->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Product.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\product\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-05-31T13:13:19+08:00 ] 127.0.0.1 GET www.rejxkj.com:30/purchase.html
+[运行时间：0.082623s] [吞吐率：12.10req/s] [内存消耗：3,599.31kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003785s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000590s ]
+[ info ] [ LANG ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'page',
+    1 => 'purchase',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=q6ht79q7esib0f58fj542rbp83; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.rejxkj.com:30/product.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.rejxkj.com:30',
+)
+[ info ] [ PARAM ] array (
+  '/purchase_html' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000887s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\page\controller\Purchase->index[ C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\application\page\controller\Purchase.php ]
+[ info ] [ VIEW ] C:\Users\86182\Desktop\fastadmin\www.rejxkj.com\public/../application/page\view\purchase\index.html [ array (
+  0 => 'acate',
+  1 => 'id',
+  2 => 'product',
+  3 => 'cid',
+  4 => 'news',
+  5 => 'services',
+  6 => 'knolodeg',
+  7 => 'data',
+  8 => 'banner',
+) ]
+[ info ] [ LOG ] INIT File
